@@ -55,3 +55,12 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git init
 git add .
+git commit -m "Initial commit: Build Five Programs"
+git branch -M main
+git remote add origin https://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@github.com/DabinleeMe/fcc-build-five-programs.git
+git push -u origin main
+git push -u origin main
+git remote add origin https://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@github.com/DabinleeMe/fcc-relational-db-project-build-five-programs.git
+__vsc_prompt_cmd_original
+git init
+git add .
